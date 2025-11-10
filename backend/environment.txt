@@ -1,0 +1,8 @@
+NODE_ENV = production
+# VITE_API_URL=https://inspirestack.net/api
+VITE_API_URL=http://localhost:8080/api
+# local google login
+VITE_GOOGLE_CLIENT_ID = 942589748245-hvrpckombpd3bsnknp46fltgpilnb14b.apps.googleusercontent.com
+# shamprakash03@upspring.it google login
+# VITE_GOOGLE_CLIENT_ID = 677006637777-qi2rt6qmv2urdkgmj21nd2nhpfcl31kq.apps.googleusercontent.com
+# VITE_GOOGLE_CLIENT_ID = 348456544359-71chqasv3m4ku28vsmpmtfula0lot0qs.apps.googleusercontent.com
