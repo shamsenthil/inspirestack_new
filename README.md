@@ -63,7 +63,7 @@ cd frontend
 npm run dev
 
 
-This runs the development server (usually at `http://localhost:3000git init` or similar depending on your setup).
+This runs the development server (usually at `http://localhost:3000` or similar depending on your setup).
 
 ### Start the Backend
 
