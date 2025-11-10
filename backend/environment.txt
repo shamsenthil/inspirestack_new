@@ -1,8 +1,37 @@
-NODE_ENV = production
-# VITE_API_URL=https://inspirestack.net/api
-VITE_API_URL=http://localhost:8080/api
-# local google login
-VITE_GOOGLE_CLIENT_ID = 942589748245-hvrpckombpd3bsnknp46fltgpilnb14b.apps.googleusercontent.com
-# shamprakash03@upspring.it google login
-# VITE_GOOGLE_CLIENT_ID = 677006637777-qi2rt6qmv2urdkgmj21nd2nhpfcl31kq.apps.googleusercontent.com
-# VITE_GOOGLE_CLIENT_ID = 348456544359-71chqasv3m4ku28vsmpmtfula0lot0qs.apps.googleusercontent.com
+# MySQL Database Configuration
+DB_HOST=localhost
+# DB_HOST=54.209.115.119 
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=Sathiya!0
+DB_NAME=inspirestacknode
+JWT_SECRET=sham4657685801lkjjhbakscjgbk
+PORT=8080
+NODE_ENV=production
+# CORS_ORIGIN=https://www.inspirestack.net/
+CORS_ORIGIN=http://localhost:3000/
+# CORS_ORIGIN=http://192.168.1.5:3000/
+# CORS_ORIGIN1=http://192.168.0.104:3000/
+EMAIL=info@upspring.it
+PASSWORD=pqbn jyqn shhy tsct
+SITE_URL=https://inspirestack.net
+OG_IMAGE=https://i.sstatic.net/gqKFh.png
+
+
+
+
+# Google OAuth Configuration local
+GOOGLE_CLIENT_ID=942589748245-hvrpckombpd3bsnknp46fltgpilnb14b.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=GOCSPX-1H1H1H1H1H1H1H1H1H1H1H1H1H1
+GOOGLE_REDIRECT_URI=http://localhost:3000/auth/google/callback
+
+
+# Google OAuth Configuration server (shamprakash03@upspring.it)
+# GOOGLE_CLIENT_ID=677006637777-qi2rt6qmv2urdkgmj21nd2nhpfcl31kq.apps.googleusercontent.com
+# GOOGLE_CLIENT_SECRET=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
+# GOOGLE_REDIRECT_URI=http://www.inspirestack.net/api/auth/google/callback
+
+
+# GOOGLE_CLIENT_ID = 348456544359-71chqasv3m4ku28vsmpmtfula0lot0qs.apps.googleusercontent.com
+# GOOGLE_CLIENT_SECRET = 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
+# GOOGLE_REDIRECT_URI = https://www.inspirestack.net/api/auth/google/callback
